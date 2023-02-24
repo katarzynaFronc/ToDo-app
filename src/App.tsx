@@ -1,5 +1,6 @@
 import React from "react";
 import { ToDoInput } from "./components/ToDoInput/ToDoInput.component";
+import { TodoItem } from "./components/ToDoItem/ToDoItem.component";
 import GlobalStyle from "./style/globalStyles";
 // import { useState } from "react";
 
@@ -9,11 +10,7 @@ function App() {
       <GlobalStyle />
       <h1>ToDo List</h1>
       <ToDoInput />
-      <ul>
-        <li>task 1</li>
-        <li>task 2</li>
-        <li>task 3</li>
-      </ul>
+      <TodoItem />
     </main>
   );
 }
